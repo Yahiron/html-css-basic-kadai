@@ -1,0 +1,27 @@
+PS C:\Users\81805\Desktop\progrum\kadai> git init
+Initialized empty Git repository in C:/Users/81805/Desktop/progrum/kadai/.git/
+PS C:\Users\81805\Desktop\progrum\kadai> cd C:\Users\81805\Desktop\progrum\kadai\git_challenge
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git add .
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git commit -m "hello_world.textを作成"
+[main (root-commit) 63e675e] hello_world.textを作成
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_challenge/hello_world.txt
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git add hello_world.text    
+fatal: pathspec 'hello_world.text' did not match any files
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git add C:\Users\81805\Desktop\progrum\kadai\git_challenge
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git commit -m "hello_world.textに和訳追加"
+[main 44e48e1] hello_world.textに和訳追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\81805\Desktop\progrum\kadai\git_challenge> git log
+commit 44e48e1c8d5ce522b50be001e965221e470f7984 (HEAD -> main)
+Author: Yahiron <j0821305@yahoo.co.jp>
+Date:   Sun Dec 29 00:52:02 2024 +0900
+
+    hello_world.textに和訳追加
+
+commit 63e675e94c3c2307a6e71f77ba61112c27c51f4d
+Author: Yahiron <j0821305@yahoo.co.jp>
+Date:   Sun Dec 29 00:48:09 2024 +0900
+
+    hello_world.textを作成
